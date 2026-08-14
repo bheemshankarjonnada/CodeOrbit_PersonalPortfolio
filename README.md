@@ -36,7 +36,7 @@ Portfolio Task1/
 ---
 
 ## 📸 Screenshots
-(Add screenshots of your portfolio here once hosted)
+
 
 ---
 

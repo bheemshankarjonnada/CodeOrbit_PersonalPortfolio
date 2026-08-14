@@ -1,0 +1,238 @@
+body{
+    font-weight: 800;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+   background: linear-gradient(to right, rgb(46, 72, 203), rgb(170, 0, 243));
+   
+}
+
+.projectlist li{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin:8px 0;
+    border-radius:8px;
+    transition:transform 0.35s ease;
+
+}
+.projectlist li:hover{
+    transform: scale(1.05);
+    background:rgba(255, 222, 225, 0.2);
+}
+
+.projects{
+    gap:3px;
+    justify-content: space-between;
+   font-weight: 800;
+}
+
+
+.acadamicproject li{
+    color: darkgoldenrod;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin:8px 0;
+    border-radius:8px;
+    transition:transform 0.35s ease;
+    line-height: 2;
+    font-weight: bold;
+    
+}
+.acadamicproject li:hover, .card:hover, li:hover{
+     transform: scale(1.05);
+    background:rgba(255, 222, 225, 0.2);
+
+}
+
+#h1{
+    padding-left: 15px;
+}
+#h2{
+    padding-left: 15px;
+}
+
+#h1,#h2{
+background-color: rgb(196, 225, 234);
+padding: 12px 15px;
+border-radius: 9px;
+display: inline;
+font-size: larger;
+}
+
+#list{
+    flex:1;
+    padding-left: 30px;
+    border-radius: 10px;
+    color: darkgoldenrod;
+    line-height: 2;
+    font-weight: bold;
+}
+
+#head{
+    text-align: center;
+    background-color: rgb(46, 139, 179);
+    background-position:center;
+    
+}
+
+#mydiv{
+  line-height: 50px;
+  color:rgb(255, 128, 0);
+  font-size: larger;
+  font-weight: bold;
+  
+}
+.card{
+    transition: transform 0.3s ease;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    display:auto;
+}
+
+h1,h2,h3{
+    font-style: italic;
+    color: coral;
+}
+#rule{
+color: beige;
+}
+
+#home{
+font-style: italic;
+font-size: medium;
+}
+#content{
+    background-color: transparent;
+    padding: 5px 5px;
+     font-size: medium;
+   word-spacing: 0.2pc;
+
+}
+#content a{
+   color:black;
+   padding:10px;
+    text-align: center;
+    text-decoration: none;
+}
+#content a:hover{
+    color:white;
+    background:#333;
+    border-radius:5px ;
+}
+#bheem{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:0 auto;
+    display: block;
+    animation: fadeIn 1s ease-in;
+}
+
+#sk{
+    color: burlywood;
+    font-size: larger;
+    line-height: 2;
+    
+}
+li{
+    transition: transform 0.3s ease;
+}
+
+
+#name:focus,#mail:focus,#phone:focus{
+    outline:none;
+    border: 2px solid #0284c7;
+    background: #fff;
+    margin: auto;
+    border-radius: 20px;
+    color: #000;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+}
+footer a{
+    font-size:x-large;
+    font-weight: bold;
+    color: brown;
+
+}
+#head,#head0,#head1,#head2,#head3,#head4{
+
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-style:normal;
+  
+}
+
+
+#lb1,#lb2,#lb3{
+    color: rgb(184, 15, 35);
+    font-weight: 900;
+    font-size: large;
+    text-align: center;
+    
+}
+#submit{
+    padding: 10px 20px;
+    border:none;
+    font-size: medium;
+    font-weight: 800;
+    font-style: inherit;
+    color:white;
+    background-color: #0284c7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 2sec ease;
+}
+#submit:hover{
+background-color:brown;
+}
+
+section {
+  animation: fadeIn 1s ease-in;
+  font-weight: bold;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+#info{
+    font-size: x-large;
+    font-display: block;
+    text-align: center;
+    color:chocolate;
+    font-weight: bold;
+}
+@media (max-width:768px) {
+    body{
+        font-size: medium;
+
+    }
+    #bheem{
+        height: 150px;
+        width: 150px;
+    }
+    #content{
+        font-size: small;
+        word-spacing: normal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content a{
+        display: block;
+        margin:5px 0;
+    }
+    
+}
+
+

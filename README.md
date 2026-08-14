@@ -49,8 +49,8 @@ Once GitHub Pages is enabled, your portfolio will be live at:
 ## 📬 Contact
 - **Name:** Bheem Shankar Jonnada  
 - **Location:** Hyderabad, India  
-- **LinkedIn:** [Your LinkedIn Profile]  
-- **Email:** [Your Email Address]
+- **LinkedIn:** bheemshankarjonnada  
+- **Email:** bheemshankarj2326@gmail.com
 
 ---
 

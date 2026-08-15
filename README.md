@@ -37,6 +37,18 @@ Portfolio Task1/
 
 ## 📸 Screenshots
 
+### Home Page
+![Home Page](images/home.png)
+
+### About Section
+![About Section](images/about.png)
+
+### Projects Section
+![Projects Section](images/projects.png)
+
+### Contact Section
+![Contact Section](images/contact.png)
+
 
 ---
 

@@ -44,7 +44,7 @@ Portfolio Task1/
 ![About Section](images/about.png)
 
 ### Projects Section
-![Projects Section](images/skillsandprojects.png)
+![Projects Section](images/skills_and_projects.png)
 
 ### Contact Section
 ![Contact Section](images/contact.png)

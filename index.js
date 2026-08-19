@@ -16,7 +16,7 @@ document.getElementById("contacting").addEventListener("submit", function(e){
     }
         
     else if(!phonepattern.test(phone)){
-        status.textContent="Please enter vaild mobile number !";
+        status.textContent="Please enter valid mobile number !";
         status.style.color="red";
     }
 
